@@ -8,7 +8,15 @@
 </head>
 <body>
     <div class="container">
-        <form class="sg-form"></form>
+        <form class="sg-form">
+            <label for="nameInput">Enter custom name <input type="text" id="nameInput" class="sg-form-input"></label>
+            <div class="sg-form-inner">
+                <label for="brInput">BR ENGLISH <input checked type="radio" id="brInput" class="sg-form-inner-input" name="radio-button"></label>
+                <label for="usInput">USA ENGLISH <input type="radio" id="usInput" class="sg-form-inner-input" name="radio-button"></label>
+            </div>
+            <button type="submit" class="sg-form-button" id="generateRandomButton">Generate Random Story</button>
+            <div class="sg-form-output"></div>
+        </form>
     </div>
     
     <script src="./script.js"></script> 
