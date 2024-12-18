@@ -26,3 +26,14 @@ function generateStory(e) {
 
 // INITIALIZE BUTTON
 generateRandomButton.addEventListener('click', generateStory);
+
+
+// CONST
+
+const newArray = 'Firdavs,Madina,FES001,Firdavs,Madina,Agzona';
+
+const array = newArray.replaceAll('Firdavs', 'FESODI');
+
+const arrayNew = array.split(',');
+
+console.log(arrayNew[0]);
